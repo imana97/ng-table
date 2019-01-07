@@ -1,0 +1,25 @@
+{
+  "name": "ng-table-bower",
+  "homepage": "https://github.com/imana97/ng-table",
+  "authors": [
+    "Iman Khaghani Far <iman.khaghani@gmail.com>"
+  ],
+  "description": "bower installation for ng-table",
+  "main": [
+  "ng-table.css",
+  "ng-table.js"
+  ],
+  "keywords": [
+    "ng",
+    "table",
+    "ng-table"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
