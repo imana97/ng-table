@@ -2714,7 +2714,7 @@ module.exports = path;
 /***/ function(module, exports, __webpack_require__) {
 
 var path = 'ng-table/filters/text.html';
-var html = "<input type=\"text\" name=\"{{name}}\" ng-disabled=\"$filterRow.disabled\" ng-model=\"params.filter()[name]\" class=\"input-filter form-control\"\n       placeholder=\"{{getFilterPlaceholderValue(filter, name)}}\"/>\n";
+var html = "<form><input type=\"text\" name=\"{{name}}\" ng-disabled=\"$filterRow.disabled\" ng-model=\"params.filter()[name]\" class=\"input-filter form-control\"\n       placeholder=\"{{getFilterPlaceholderValue(filter, name)}}\" autocomplete=\"off\" /></form>\n";
 var angular = __webpack_require__(/*! angular */ 0);
 angular.module('ng').run(['$templateCache', function(c) { c.put(path, html) }]);
 module.exports = path;
